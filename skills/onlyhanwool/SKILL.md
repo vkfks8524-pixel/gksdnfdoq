@@ -1,9 +1,9 @@
 ---
-name: teacher-gas-webapp
+name: onlyhanwool
 description: 교사와 인터뷰하며 시트에 연결된 Google Apps Script 웹앱을 기획·디자인·구현·배포한다. 스크립트 ID로 클론하고, 필요한 시트 초기화와 선택적 Firebase 연동을 구성하며, 기존 배포 주소를 유지해 화면별 링크·한국어 사용 설명서·사용자 점검 체크리스트를 제공할 때 사용한다.
 ---
 
-# 교사용 Google Apps Script 웹앱 제작
+# onlyhanwool: 교사용 Google Apps Script 웹앱 제작
 
 프로그래밍을 모르는 교사와 한국어로 대화한다. 웹앱의 기능을 기획하거나 코드를 수정하기 전에, 사용자가 지정한 기존 Apps Script 프로젝트를 먼저 클론해 작업을 준비한다.
 
