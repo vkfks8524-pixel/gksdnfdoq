@@ -1,0 +1,16 @@
+# Local credentials and generated app configuration are not part of this skill.
+.env
+.env.*
+!.env.example
+.clasprc.json
+.clasp.json
+.firebaserc
+.firebase/
+*service-account*.json
+*serviceAccount*.json
+*.pem
+*.key
+node_modules/
+work/
+.DS_Store
+Thumbs.db
