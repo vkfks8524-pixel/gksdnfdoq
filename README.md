@@ -1,4 +1,4 @@
-# hanwoolskill: 교사용 Google Apps Script 웹앱 제작 스킬
+# gksdnfdoq: 교사용 Google Apps Script 웹앱 제작 스킬
 
 프로그래밍을 몰라도 Codex와 대화하면서 수업·업무용 웹앱을 만드는 스킬입니다. 만들고 싶은 것이 막연해도 괜찮습니다. AI가 예시를 들어 질문하고, 지금까지 정한 내용을 요약하며, 먼저 사용할 수 있는 첫 버전을 만든 뒤 피드백으로 보완합니다.
 
@@ -6,7 +6,7 @@
 
 이 저장소에는 AI가 따를 제작 지침이 들어 있습니다. 설치만으로 완성된 웹앱이 생기지는 않으며, 각 선생님의 Google 계정과 시트를 연결해 앱을 만듭니다.
 
-저장소는 **`vkfks8524-pixel/hanwoolskill`**, 설치할 스킬 폴더는 **`skills/hanwoolskill`**, 설치 후 사용할 스킬 이름은 **`hanwoolskill`**입니다.
+저장소는 **`vkfks8524-pixel/gksdnfdoq`**, 설치할 스킬 폴더는 **`skills/gksdnfdoq`**, 설치 후 사용할 스킬 이름은 **`gksdnfdoq`**입니다.
 
 ## 1. 가장 간단한 설치 방법
 
@@ -15,17 +15,17 @@
 먼저 **Codex 채팅에 다음 한 문장으로 요청할 수 있습니다.** 선생님이 Git 명령을 입력하거나 ZIP 파일을 직접 내려받을 필요는 없습니다.
 
 ```text
-깃허브에 있는 hanwoolskill 스킬 사용할 수 있게 해줘.
+깃허브에 있는 gksdnfdoq 스킬 사용할 수 있게 해줘.
 ```
 
-이 요청은 Codex에게 GitHub에서 스킬을 찾아 설치해 달라는 뜻입니다. 이름이 Codex의 공통 목록에 자동 등록되는 것은 아니며, 검색 가능 여부와 검색 결과에 따라 저장소를 못 찾거나 주소를 물어볼 수 있습니다. 같은 이름의 결과가 여러 개라면 **`vkfks8524-pixel/hanwoolskill`**을 선택하세요.
+이 요청은 Codex에게 GitHub에서 스킬을 찾아 설치해 달라는 뜻입니다. 이름이 Codex의 공통 목록에 자동 등록되는 것은 아니며, 검색 가능 여부와 검색 결과에 따라 저장소를 못 찾거나 주소를 물어볼 수 있습니다. 같은 이름의 결과가 여러 개라면 **`vkfks8524-pixel/gksdnfdoq`**을 선택하세요.
 
 **검색 과정을 줄이려면 다음처럼 정확한 설치 주소를 함께 보내세요.** 이름만으로 못 찾을 때에도 이 문구를 쓰면 됩니다.
 
 ```text
 $skill-installer
 다음 GitHub 스킬을 이 컴퓨터에서 사용할 수 있도록 설치해줘.
-https://github.com/vkfks8524-pixel/hanwoolskill/tree/main/skills/hanwoolskill
+https://github.com/vkfks8524-pixel/gksdnfdoq/tree/main/skills/gksdnfdoq
 ```
 
 Codex가 설치 완료를 알려주면 다음 메시지에서 실행할 수 있습니다. 스킬이 보이지 않으면 Codex를 다시 시작한 뒤 시도하세요. 네트워크 접근이나 설치 폴더 접근에 대한 승인이 표시되면 요청 내용을 확인하고 진행합니다.
@@ -39,11 +39,11 @@ Codex가 설치 완료를 알려주면 다음 메시지에서 실행할 수 있�
 설치가 끝나면 다음 문장을 보내세요.
 
 ```text
-$hanwoolskill
+$gksdnfdoq
 웹앱을 만들고 싶어요. 스크립트 ID 확인과 프로젝트 준비부터 시작해줘.
 ```
 
-`$`로 선택하는 메뉴가 보이지 않으면 “설치한 hanwoolskill 스킬을 사용해 웹앱 제작을 시작해줘”라고 요청해도 됩니다.
+`$`로 선택하는 메뉴가 보이지 않으면 “설치한 gksdnfdoq 스킬을 사용해 웹앱 제작을 시작해줘”라고 요청해도 됩니다.
 
 AI는 먼저 **스크립트 ID**를 요청합니다. 이때 기능을 모두 정해둘 필요는 없습니다.
 
@@ -150,24 +150,24 @@ AI는 작업이 끝나면 실제 접속 링크를 제공합니다. 화면을 나
 스킬은 한 번 설치하면 새 앱을 만들 때마다 다시 내려받을 필요가 없습니다. 다만 **GitHub의 변경사항이 설치한 스킬에 자동 반영되지는 않습니다.** 최신 지침을 받고 싶을 때 다음처럼 요청하세요.
 
 ```text
-설치된 hanwoolskill 스킬을 아래 저장소의 최신 버전과 비교해 업데이트해줘.
+설치된 gksdnfdoq 스킬을 아래 저장소의 최신 버전과 비교해 업데이트해줘.
 내가 수정한 부분이 있으면 먼저 알려주고 기존 사본을 보존해줘.
-https://github.com/vkfks8524-pixel/hanwoolskill/tree/main/skills/hanwoolskill
+https://github.com/vkfks8524-pixel/gksdnfdoq/tree/main/skills/gksdnfdoq
 ```
 
 스킬 지침을 업데이트하는 것과 이미 만든 웹앱 코드를 수정·재배포하는 것은 별개입니다. 기존 앱에 새 방식을 적용하고 싶으면 해당 앱의 수정도 요청하세요.
 
-이전 이름인 `onlyhanwool` 또는 `teacher-gas-webapp`으로 이미 설치했다면 이번 안내의 주소로 `hanwoolskill`을 설치하세요. GitHub에서 이름을 바꿔도 컴퓨터에 설치한 기존 사본의 이름까지 자동으로 바뀌지는 않습니다. 기존 사본에 직접 수정한 내용이 있다면 새 이름으로 옮길 때 함께 보존해 달라고 요청하세요.
+이전 이름인 `hanwoolskill`, `onlyhanwool` 또는 `teacher-gas-webapp`으로 이미 설치했다면 이번 안내의 주소로 `gksdnfdoq` 스킬을 설치하세요. GitHub에서 이름을 바꿔도 컴퓨터에 설치한 기존 사본의 이름까지 자동으로 바뀌지는 않습니다. 기존 사본에 직접 수정한 내용이 있다면 새 이름으로 옮길 때 함께 보존해 달라고 요청하세요.
 
 ## 8. 다른 선생님께 공유하기
 
 다음 문구를 전달하면 됩니다.
 
 ```text
-Codex와 대화하면서 수업·업무용 웹앱을 만드는 hanwoolskill 스킬입니다.
-Codex에 "깃허브에 있는 hanwoolskill 스킬 사용할 수 있게 해줘"라고 요청하세요.
+Codex와 대화하면서 수업·업무용 웹앱을 만드는 gksdnfdoq 스킬입니다.
+Codex에 "깃허브에 있는 gksdnfdoq 스킬 사용할 수 있게 해줘"라고 요청하세요.
 못 찾으면 아래 링크의 설치 문구를 복사해 보내세요.
-https://github.com/vkfks8524-pixel/hanwoolskill
+https://github.com/vkfks8524-pixel/gksdnfdoq
 ```
 
 이 링크는 스킬과 사용 설명서를 공유합니다. 각 선생님은 자신의 Google 계정과 시트로 별도 앱을 만듭니다. 이 저장소에는 학생 자료나 개인 계정 인증정보를 올리지 않습니다.
@@ -182,10 +182,10 @@ https://github.com/vkfks8524-pixel/hanwoolskill
 
 ```text
 README.md                           선생님을 위한 설치·사용 안내
-skills/hanwoolskill/
+skills/gksdnfdoq/
   SKILL.md                          AI가 따르는 전체 제작 흐름
   agents/openai.yaml                Codex 표시 이름과 시작 문구
   references/                       인터뷰·명렬·시트·Firebase·배포 상세 지침
 ```
 
-직접 내용을 살펴보려면 [스킬 본문](skills/hanwoolskill/SKILL.md)을 열어보세요. 이 저장소는 제작 지침을 제공하며, 완성된 예제 웹앱을 포함하지 않습니다.
+직접 내용을 살펴보려면 [스킬 본문](skills/gksdnfdoq/SKILL.md)을 열어보세요. 이 저장소는 제작 지침을 제공하며, 완성된 예제 웹앱을 포함하지 않습니다.
